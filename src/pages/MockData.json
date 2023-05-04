@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Game 1",
+    "image": "/1.jpg",
+    "price": "$10",
+    "category": "cat1"
+  },
+  {
+    "id": 2,
+    "name": "Game 2",
+    "image": "/2.jpg",
+    "price": "$10",
+    "category": "cat1"
+  },
+  {
+    "id": 3,
+    "name": "Game 3",
+    "image": "/3.jpg",
+    "price": "$10",
+    "category": "cat2"
+  },
+  {
+    "id": 4,
+    "name": "Game 4",
+    "image": "/4.jpg",
+    "price": "$10",
+    "category": "cat2"
+  },
+  {
+    "id": 5,
+    "name": "Game 5",
+    "image": "/5.jpg",
+    "price": "$10",
+    "category": "cat3"
+  }
+]
