@@ -1,11 +1,14 @@
 import { React } from "react";
-import GameList from "@component/components/GameList";
+import GameList2 from "@component/components/GameList2";
 import MockData from "src/pages/MockData.json";
+import { Provider } from "react-redux";
+import store from "../../store/store";
 
 const GameCategory2 = () => {
 
   return (
     <>
+    <Provider store={store}>
       <h1 className="mt-5 text-center ">Choose Category</h1>
       <hr />
       <div className="game-tabs container">
@@ -19,10 +22,11 @@ const GameCategory2 = () => {
       <div className="game-items container-fluid mt-5">
         <div className="row">
           <div className="col-11 mx-auto">
-            <GameList MockData={MockData}/>
+            <GameList2 MockData={MockData}/>
           </div>
         </div>
       </div>
+      </Provider>
     </>
   );
 };

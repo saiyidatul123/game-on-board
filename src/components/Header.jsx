@@ -34,6 +34,9 @@ const header = () => {
               </a>
             </div>
           </div>
+          <Link href={"/MemberPage"}>
+            <button className="border p-2 mx-3">MY PAGE</button>
+          </Link>
           <Link href={"/GameCategory2"}>
             <button className="border p-2">RENT A GAME !</button>
           </Link>
